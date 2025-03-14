@@ -1,4 +1,4 @@
-# 🤖 ASK GPT 
+#  ASK GPT 
 
 Welcome to **ASK GPT**, a lightweight and smart chatbot web application inspired by ChatGPT. Powered by JavaScript, this clone enables users to chat with a friendly bot (named **AskMate**) and retains individual chat histories using **Local Storage**.
 
