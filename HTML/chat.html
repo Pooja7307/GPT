@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Page</title>
+ <link rel="stylesheet" href="../Styles/chat.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Chat History</h2>
+    <div id="chat-history-list"></div>
+  </div>
+
+  <div class="main">
+    <header>
+      <div><img class="logo" src="../Assets/logo1-removebg-preview.png" alt=""></div>
+      <button onclick="logout()">Logout</button>
+    </header>
+
+    <div class="chat-container" id="chat-container"></div>
+
+    <footer>
+      <input type="text" id="message-input" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </footer>
+  </div>
+
+  <script src="../Scripts/chat.js"> </script>
+</body>
+</html>
+
