@@ -26,8 +26,8 @@ function sendMessage() {
 
   setTimeout(() => {
     const reply = generateReply(message);
-    appendMessage(reply, "Ask GPT");
-    saveMessage(reply, "Ask GPT");
+    appendMessage(reply, "Ask-GPT");
+    saveMessage(reply, "Ask-GPT");
   }, 500);
 }
 
